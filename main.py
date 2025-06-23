@@ -8,15 +8,15 @@ from util import (
     show_main_menu, Dialog
 )
 from gpt_service.gpt import gpt, gpt_dialog
-from osnov_servis.random_facts import get_random_fact
-from osnov_servis.talk import talk, talk_dialog, load_character_prompt
-from osnov_servis.shared import dialog, chatgpt
-from osnov_servis.quiz import (
+from bot_service.random_facts import get_random_fact
+from bot_service.talk import talk, talk_dialog, load_character_prompt
+from bot_service.shared import dialog, chatgpt
+from bot_service.quiz import (
     quiz_command, quiz_start, topic_selected,
     handle_quiz_answer, handle_quiz_callback,
     SELECTING_TOPIC, ANSWERING_QUESTION
 )
-from osnov_servis.business_ideas import (
+from bot_service.business_ideas import (
     business_command, business_start, category_selected,
     handle_business_callback, SELECTING_CATEGORY, GENERATING_IDEA
 )

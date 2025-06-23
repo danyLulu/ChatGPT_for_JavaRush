@@ -1,5 +1,5 @@
 from util import send_photo, send_text, load_message, load_prompt
-from osnov_servis.shared import dialog, chatgpt
+from bot_service.shared import dialog, chatgpt
 import logging
 
 logger = logging.getLogger(__name__)
